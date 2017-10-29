@@ -1,13 +1,16 @@
-
-.body {
-    margin: auto;
-    font-family: Candara;
+body {
     background-color: white;
+    font-family: Candara;
 }
 
-header {
+.body {
+    margin: 0 auto;
+    width: 100%;
+}
 
-
+.mainheader h1{
+    margin-top: 60px;
+    margin-left: 40px;
 }
 
 h1:first-letter {
@@ -20,20 +23,24 @@ ul {
     padding: 0px;
     overflow: hidden;
     background-color: darkgray;
-    position: fixed;
     width: 100%;
+    position: fixed;
+    top:0;
+
 }
 
 li {
     float: left;
+
 }
 
-a {
+.mainheader a {
     display: block;
     padding: 10px;
     text-decoration: none;
     color: black;
     text-align: center;
+
 }
 
 a:hover:not(.active) {
@@ -48,7 +55,60 @@ a:hover:not(.active) {
     float: right;
 }
 
-.FirstImgHome {
+.maincontent {
+    overflow: hidden;
+    border-radius: 5px;
+}
 
+.content {
+    width: 100%;
+}
+
+.topcontent {
+    margin-top: 30px;
+    display: flex;
+}
+
+#fig1{
+    justify-content: center;
+}
+
+.middlecontent {
+    margin-top: 30px;
+    display: flex;
+}
+
+#fig2{
+    justify-content: flex-start;
+}
+#fig3{
+    justify-content: center;
+}
+#fig4{
+    justify-content: flex-end;
+}
+
+.bottomcontent {
+    margin-top: 30px;
+    display: flex;
+}
+
+#fig5{
+    justify-content: flex-start;
+}
+#fig6{
+    justify-content: center;
+}
+#fig7{
+    justify-content: flex-end;
+}
+
+.mainfooter{
+    background-color: dimgray;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
 }
 
